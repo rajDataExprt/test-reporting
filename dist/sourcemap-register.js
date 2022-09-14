@@ -295,7 +295,7 @@ module.exports = (() => {
                             o += l + "."
                         }
                         o += i;
-                        var index =i.indexOf("."+c); 
+                        var index = c && i.indexOf("."+c); 
                     if(index != -1){
                         if (c && i.indexOf("." + c) != i.length - c.length - 1) {
                             o += " [as " + c + "]"
